@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-04T22:15:24 IST" name="Test1" finished-at="2022-06-04T22:15:49 IST" duration-ms="25318">
+    <groups>
+    </groups>
+    <test started-at="2022-06-04T22:15:24 IST" name="DemoTest" finished-at="2022-06-04T22:15:49 IST" duration-ms="25318">
+      <class name="TestFiles.GoogleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:24 IST" name="setUp" finished-at="2022-06-04T22:15:32 IST" duration-ms="8214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="a_launchBrowser(java.lang.String)[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:32 IST" name="a_launchBrowser" data-provider="dataProviderMethod" finished-at="2022-06-04T22:15:37 IST" duration-ms="4460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_launchBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:37 IST" name="tearDown" finished-at="2022-06-04T22:15:41 IST" duration-ms="4562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:41 IST" name="setUp" finished-at="2022-06-04T22:15:43 IST" duration-ms="1932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="b_launchBrowser(java.lang.String, java.lang.String)[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:43 IST" name="b_launchBrowser" data-provider="data" finished-at="2022-06-04T22:15:45 IST" duration-ms="1861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_launchBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:45 IST" name="tearDown" finished-at="2022-06-04T22:15:45 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:45 IST" name="setUp" finished-at="2022-06-04T22:15:47 IST" duration-ms="1828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="b_launchBrowser(java.lang.String, java.lang.String)[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:47 IST" name="b_launchBrowser" data-provider="data" finished-at="2022-06-04T22:15:49 IST" duration-ms="1878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maven]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_launchBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:49 IST" name="tearDown" finished-at="2022-06-04T22:15:49 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestFiles.GoogleTest -->
+    </test> <!-- DemoTest -->
+  </suite> <!-- Test1 -->
+</testng-results>
