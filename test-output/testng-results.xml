@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-04T22:15:24 IST" name="Test1" finished-at="2022-06-04T22:15:49 IST" duration-ms="25318">
+  <suite started-at="2022-06-06T23:53:30 IST" name="Test1" finished-at="2022-06-06T23:53:42 IST" duration-ms="11884">
     <groups>
     </groups>
-    <test started-at="2022-06-04T22:15:24 IST" name="DemoTest" finished-at="2022-06-04T22:15:49 IST" duration-ms="25318">
+    <test started-at="2022-06-06T23:53:30 IST" name="DemoTest" finished-at="2022-06-06T23:53:42 IST" duration-ms="11884">
       <class name="TestFiles.GoogleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:24 IST" name="setUp" finished-at="2022-06-04T22:15:32 IST" duration-ms="8214" status="PASS">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:TestFiles.GoogleTest@45cff11c]" started-at="2022-06-06T23:53:30 IST" name="startTest" finished-at="2022-06-06T23:53:30 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestFiles.GoogleTest@45cff11c]" started-at="2022-06-06T23:53:30 IST" name="setUp" finished-at="2022-06-06T23:53:33 IST" duration-ms="2444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="a_launchBrowser(java.lang.String)[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:32 IST" name="a_launchBrowser" data-provider="dataProviderMethod" finished-at="2022-06-04T22:15:37 IST" duration-ms="4460" status="PASS">
+        <test-method signature="a_launchBrowser(java.lang.String)[pri:0, instance:TestFiles.GoogleTest@45cff11c]" started-at="2022-06-06T23:53:33 IST" name="a_launchBrowser" data-provider="dataProviderMethod" finished-at="2022-06-06T23:53:34 IST" duration-ms="1350" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +26,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a_launchBrowser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:37 IST" name="tearDown" finished-at="2022-06-04T22:15:41 IST" duration-ms="4562" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestFiles.GoogleTest@45cff11c]" started-at="2022-06-06T23:53:34 IST" name="tearDown" finished-at="2022-06-06T23:53:38 IST" duration-ms="4153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=a_launchBrowser status=SUCCESS method=GoogleTest.a_launchBrowser(java.lang.String)[pri:0, instance:TestFiles.GoogleTest@45cff11c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:41 IST" name="setUp" finished-at="2022-06-04T22:15:43 IST" duration-ms="1932" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestFiles.GoogleTest@45cff11c]" started-at="2022-06-06T23:53:38 IST" name="setUp" finished-at="2022-06-06T23:53:40 IST" duration-ms="1802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="b_launchBrowser(java.lang.String, java.lang.String)[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:43 IST" name="b_launchBrowser" data-provider="data" finished-at="2022-06-04T22:15:45 IST" duration-ms="1861" status="PASS">
+        <test-method signature="b_launchBrowser(java.lang.String, java.lang.String)[pri:0, instance:TestFiles.GoogleTest@45cff11c]" started-at="2022-06-06T23:53:40 IST" name="b_launchBrowser" data-provider="data" finished-at="2022-06-06T23:53:42 IST" duration-ms="1956" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,34 +57,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- b_launchBrowser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:45 IST" name="tearDown" finished-at="2022-06-04T22:15:45 IST" duration-ms="295" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:45 IST" name="setUp" finished-at="2022-06-04T22:15:47 IST" duration-ms="1828" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="b_launchBrowser(java.lang.String, java.lang.String)[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:47 IST" name="b_launchBrowser" data-provider="data" finished-at="2022-06-04T22:15:49 IST" duration-ms="1878" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestFiles.GoogleTest@45cff11c]" started-at="2022-06-06T23:53:42 IST" name="tearDown" finished-at="2022-06-06T23:53:42 IST" duration-ms="145" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://www.google.co.in/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Maven]]>
+                <![CDATA[[TestResult name=b_launchBrowser status=SUCCESS method=GoogleTest.b_launchBrowser(java.lang.String, java.lang.String)[pri:0, instance:TestFiles.GoogleTest@45cff11c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- b_launchBrowser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestFiles.GoogleTest@223aa2f7]" started-at="2022-06-04T22:15:49 IST" name="tearDown" finished-at="2022-06-04T22:15:49 IST" duration-ms="216" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:TestFiles.GoogleTest@45cff11c]" started-at="2022-06-06T23:53:42 IST" name="endTest" finished-at="2022-06-06T23:53:42 IST" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- endTest -->
       </class> <!-- TestFiles.GoogleTest -->
     </test> <!-- DemoTest -->
   </suite> <!-- Test1 -->

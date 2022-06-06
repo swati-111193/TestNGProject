@@ -10,6 +10,8 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="endTest"/>
+          <include name="startTest"/>
           <include name="a_launchBrowser" invocation-numbers="0"/>
         </methods>
       </class> <!-- TestFiles.GoogleTest -->
